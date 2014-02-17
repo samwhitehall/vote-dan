@@ -82,6 +82,10 @@ body {
 /* STUFF WE'VE PUT IN */
 body {
     background: url('chalk.jpg');
+    -webkit-background-size: cover; /* For WebKit*/
+    -moz-background-size: cover;    /* Mozilla*/
+    -o-background-size: cover;      /* Opera*/
+    background-size: cover;         /* Generic*/
 }
 
 h4 {
@@ -186,4 +190,14 @@ p a {
     color: #555;
     font-weight: bold;
     border-bottom: 1px dotted #555;
+}
+
+.col-xs-8 p {
+	text-align: justify;
+}
+
+.marketing ul {
+	font-family: 'Montserrat', 'Helvetica Neue Light', 'Helvetica', 'Arial', sans-serif;
+	font-size: 16px;
+	text-align: justify;
 }
