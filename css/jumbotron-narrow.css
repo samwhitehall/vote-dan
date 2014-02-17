@@ -78,3 +78,112 @@ body {
     border-bottom: 0;
   }
 }
+
+/* STUFF WE'VE PUT IN */
+body {
+    background: url('chalk.jpg');
+}
+
+h4 {
+    color: #ccc;
+}
+
+.jumbotron {
+    background: url('jumbo-bg.png');
+    color: #ddd;
+    margin-bottom: -24px;
+}
+
+.jumbotron h1 {
+    font-size: 58px;
+    padding-bottom: 6px;
+    margin-bottom: 18px;
+    margin-top: 0px;
+    font-family: 'Alegreya Sans SC', 'Helvetica', 'Arial', sans-serif;
+    text-transform: uppercase;
+    color: white;
+
+    border-bottom: 4px solid #F5A2A2;
+}
+
+.jumbotron .row {
+    margin-bottom: -48px;
+}
+
+p.lead {
+    text-align: left;
+}
+
+.container .jumbotron .btn {
+    margin-bottom: -24px;
+    font-family: 'Montserrat', 'Helvetica Neue Light', 'Helvetica', 'Arial', sans-serif;
+
+    background-color: #F5A2A2;
+    border: 4px solid #F5A2A2;
+    text-align: left;
+}
+
+.container .jumbotron a.btn:hover {
+    border: 4px solid white;
+}
+
+.container .jumbotron .row {
+    padding-bottom: 36px;
+}
+
+.marketing div {
+    padding-top: 12px;
+    padding-bottom: 12px;
+    margin-top: 12px;
+    margin-bottom: 12px;
+}
+
+.marketing h4, .marketing p {
+    color: #222;
+    font-family: 'Montserrat', 'Helvetica Neue Light', 'Helvetica', 'Arial', sans-serif;
+}
+
+.jumbotron p {
+    font-family: 'Montserrat', 'Helvetica Neue Light', 'Helvetica', 'Arial', sans-serif;
+    font-size: 16px;
+}
+
+.marketing h4 {
+    font-size: 24px;
+}
+
+.marketing p {
+    font-size: 16px;
+}
+
+.alt-1 { 
+    background: #FFFCDD;
+    opacity: 0.7;
+    border-radius: 6px;
+}
+
+.alt-2 {
+    background: #DCF7F3;
+    opacity: 0.7;
+    border-radius: 6px;
+    float: right;
+}
+
+.footer {
+    opacity: 0.5;
+}
+
+.footer p {
+    font-family: 'Montserrat', 'Helvetica Neue Light', 'Helvetica', 'Arial', sans-serif;
+    color: white;
+}
+
+ul.nav li a {
+    font-family: 'Montserrat', 'Helvetica Neue Light', 'Helvetica', 'Arial', sans-serif;
+}
+
+p a {
+    color: #555;
+    font-weight: bold;
+    border-bottom: 1px dotted #555;
+}
