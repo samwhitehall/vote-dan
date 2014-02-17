@@ -395,3 +395,35 @@ nav a:hover {
         page-break-after: avoid;
     }
 }
+
+/* Custom CSS rules */
+
+body {
+    background: url('../img/chalk.jpg');
+}
+
+.header-container {
+    background: none;
+    border-bottom: none;
+
+    -webkit-box-shadow: none;
+    -moz-box-shadow: none;
+    box-shadow: none;
+}
+
+h1, h2, h3, h4, h5, h6 {
+    color: #ddd;
+}
+
+p {
+    color: #bbb;
+}
+
+nav ul li a {
+    background: #7B726B;
+}
+
+.footer-container {
+    border-top: none;
+    background: none;
+}
